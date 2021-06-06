@@ -507,7 +507,7 @@ func (e *Exporter) gather(data *Nsxv3Data) error {
 		[]Nsxv3Resource{
 			getEndpointStatus(ManagementCluster, ""),
 			getEndpointStatus(ManagementClusterNodes, ""),
-			getEndpointStatus(ManagementClusterDatabase, ""),
+			//getEndpointStatus(ManagementClusterDatabase, ""),
 			getEndpointStatus(LogicalSwitchAdmin, ""),
 			getEndpointStatus(LogicalSwitch, ""),
 			getEndpointStatus(TransportNode, ""),
