@@ -1,8 +1,8 @@
 package exporter
 
 import (
+	"github.com/Muxa1L/nsx-t-exporter/config"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/sapcc/nsx-t-exporter/config"
 )
 
 // Exporter is used to store Metrics data and embeds the config struct.

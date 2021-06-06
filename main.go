@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/sapcc/nsx-t-exporter/config"
-	"github.com/sapcc/nsx-t-exporter/exporter"
+	"github.com/Muxa1L/nsx-t-exporter/config"
+	"github.com/Muxa1L/nsx-t-exporter/exporter"
 
 	"github.com/fatih/structs"
 	"github.com/prometheus/client_golang/prometheus"
