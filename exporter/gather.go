@@ -529,9 +529,9 @@ func (e *Exporter) gather(data *Nsxv3Data) error {
 
 	err = e.gatherWave(data, endpoints)
 
-	if err != nil {
+	/*if err != nil {
 		return err
-	}
+	}*/
 
 	data.ExtractedActualValues = true
 	data.LastSuccessfulDataFetch = float64(time.Now().Unix())
